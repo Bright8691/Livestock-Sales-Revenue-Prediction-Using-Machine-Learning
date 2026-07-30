@@ -25,14 +25,14 @@ The dataset contains information on livestock farmers, including:
 
 |  Variable	                    |  Description                         |
 |-------------------------------|--------------------------------------| 
-|  Livestock Type	              |  Type of livestock raised            |
+|  Livestock Type	            |  Type of livestock raised            | 				
 |  Number Sold	                |  Number of livestock sold            |
-|  Distance to Market	          |  Distance to the nearest market (km) | 
+|  Distance to Market	        |  Distance to the nearest market (km) | 
 |  Age	                        |  Farmer's age                        |
-|  Gender	                      |  Farmer's gender                     | 
+|  Gender	                    |  Farmer's gender                     | 
 |  Geographic Zone	            |  Region of operation                 | 
 |  Average Annual Rainfall	    |  Environmental factor                |
-|  Vulnerability Index Score	  |  Climate vulnerability indicator     | 
+|  Vulnerability Index Score	|  Climate vulnerability indicator     | 
 |  Date	                        |  Date of transaction                 | 
 |  Revenue	                    |  Target variable                     | 
 
@@ -67,11 +67,11 @@ The following regression models were trained:
 
 📈 Model Performance
 
-|  Model	                 |  MAE	     |  RMSE	   |  R²      |
-|--------------------------|-----------|-----------|----------|
-|  Linear Regression	     |  0.2200	 |   0.3246	 |   0.8645 |
-|  Decision Tree	         |  0.1048	 |   0.1721	 |   0.9619 |
-|  Random Forest	         |  0.0864	 |   0.1160	 |   0.9827 |
+|  Model	               |  MAE	     |  RMSE	 |  R²      |
+|--------------------------|-------------|-----------|----------|
+|  Linear Regression	   |  0.2200	 |   0.3246	 |   0.8645 |
+|  Decision Tree	       |  0.1048	 |   0.1721	 |   0.9619 |
+|  Random Forest	       |  0.0864	 |   0.1160	 |   0.9827 |
 
 🏆 Best Model
 The Random Forest Regressor achieved the best predictive performance.
@@ -101,7 +101,7 @@ These three variables accounted for approximately 97% of the model's predictive 
 5. Random Forest substantially outperformed Linear Regression and Decision Tree models.
 
 **Correlation Matrix**
-<img width="4025" height="3060" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/11f62d07-76c8-4ab4-b35d-63d346d2b224" />
+<img width="400" height="300" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/11f62d07-76c8-4ab4-b35d-63d346d2b224" />
 
 **Breakdown of the Correlation Heatmap**
 
@@ -123,7 +123,7 @@ The differences in market distance or age is not a predictable variable in this 
 Major variables to check, the relationship between Average_Annual_Rainfall_mm and Vulnerability_Index_Score 
 
 **Actual vs Predicted Revenue**
-<img width="3581" height="2865" alt="actual_predicted" src="https://github.com/user-attachments/assets/d7e4d29e-f230-4ac1-b78d-ba529261c299" />
+<img width="400" height="300" alt="actual_predicted" src="https://github.com/user-attachments/assets/d7e4d29e-f230-4ac1-b78d-ba529261c299" />
 
 **Comments**
 The x-axis is the Actual Log Revenue(records from livestock sales).
@@ -137,7 +137,7 @@ We have outliers which occurred around 12.5  mark on the X-axis. It is for speci
 
 **Residual Plot**
 
-<img width="3587" height="2814" alt="residual" src="https://github.com/user-attachments/assets/ffd8c19f-306e-44a9-bf53-5bd2bf8723d5" />
+<img width="400" height="300" alt="residual" src="https://github.com/user-attachments/assets/ffd8c19f-306e-44a9-bf53-5bd2bf8723d5" />
 
 **Interpretation**
 
@@ -166,7 +166,7 @@ This residual plot shows how the livestock revenue predictions missed the actual
   
 **Feature Importance**
 
-<img width="3807" height="2551" alt="important_features" src="https://github.com/user-attachments/assets/13e8f6f3-1079-43b9-8981-c8eae608598b" />
+<img width="400" height="300" alt="important_features" src="https://github.com/user-attachments/assets/13e8f6f3-1079-43b9-8981-c8eae608598b" />
 
 The Random Forest feature importance results show that **Livestock Type Goat** is the most influential 
 predictor of livestock revenue, followed by **Number Sold** and **Livestock Type Poultry**. This indicates 
@@ -175,7 +175,7 @@ such as **distance to market, age, month,** and **geographic zone** contribute o
 
 # Executive Summary 
 **Power BI Dashboard**
-<img width="720" height="337" alt="livestock_farm_pBI" src="https://github.com/user-attachments/assets/2ec4f8e7-66c3-4c9d-a580-c6e992937a4b" />
+<img width="700" height="300" alt="livestock_powerBI" src="https://github.com/user-attachments/assets/27287e2d-01bd-4db5-9f18-5b7e3cbcdb96" />
 
 The interpretation of the **Livestock Farming** Power BI dashboard:
 
