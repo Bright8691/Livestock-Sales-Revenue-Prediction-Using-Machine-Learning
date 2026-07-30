@@ -182,7 +182,8 @@ These three variables accounted for approximately 97% of the model's predictive 
 4. Geographic location, rainfall, gender, and season had relatively small effects on revenue prediction in this dataset.
 5. Random Forest substantially outperformed Linear Regression and Decision Tree models.
 
-**Correlation Matrix**
+**Correlation Matrix**<br>
+
 <img width="400" height="300" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/11f62d07-76c8-4ab4-b35d-63d346d2b224" />
 
 **Breakdown of the Correlation Heatmap**
