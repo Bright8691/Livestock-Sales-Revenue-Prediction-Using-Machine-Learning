@@ -171,7 +171,7 @@ The Random Forest model identified the following variables as the strongest pred
 Rank							Feature	Importance
 1.	Livestock Type (Goat)		56.0%
 2.	Number Sold					31.3%
-3.	Livestock Type (Poultry)	9.8%
+3.	Livestock Type (Poultry)	9.8%<br>
 These three variables accounted for approximately 97% of the model's predictive capability.
 
 💡 Key Findings
