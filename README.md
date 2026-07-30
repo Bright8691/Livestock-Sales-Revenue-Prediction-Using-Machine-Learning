@@ -168,10 +168,11 @@ This indicates that the **Random Forest model** explains approximately 98.3% of 
 The Random Forest model identified the following variables as the strongest predictors of farmers' revenue:
 
 
-Rank							Feature	Importance
+Rank Feature	Importance
 1.	Livestock Type (Goat)		56.0%
 2.	Number Sold					31.3%
 3.	Livestock Type (Poultry)	9.8%<br>
+
 These three variables accounted for approximately 97% of the model's predictive capability.
 
 💡 Key Findings
