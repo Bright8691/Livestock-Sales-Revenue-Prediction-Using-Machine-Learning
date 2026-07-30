@@ -205,10 +205,12 @@ The differences in market distance or age is not a predictable variable in this 
 
 Major variables to check, the relationship between Average_Annual_Rainfall_mm and Vulnerability_Index_Score 
 
-**Actual vs Predicted Revenue**
+**Actual vs Predicted Revenue**<br>
+
 <img width="400" height="300" alt="actual_predicted" src="https://github.com/user-attachments/assets/d7e4d29e-f230-4ac1-b78d-ba529261c299" />
 
 **Comments**
+
 The x-axis is the Actual Log Revenue(records from livestock sales).
 The y-axis is the Predicted Log Revenue
 The Log Scales:{11 to 14} are logarithmic transformation. This is used to compress very large numbers. For instance, large poultry sales and goat sales<br>
@@ -218,7 +220,7 @@ When the points above the line it means where actual revenue was notably lower t
 The points tightly hug the 45-degree line from low revenue values to high revenue values. Which means that model captures the overall linear trend and variance in livestock revenue.
 We have outliers which occurred around 12.5  mark on the X-axis. It is for specific livestock that had higher revenue than what was actually earned.
 
-**Residual Plot**
+**Residual Plot**<br>
 
 <img width="400" height="300" alt="residual" src="https://github.com/user-attachments/assets/ffd8c19f-306e-44a9-bf53-5bd2bf8723d5" />
 
@@ -258,6 +260,7 @@ such as **distance to market, age, month,** and **geographic zone** contribute o
 
 # Executive Summary 
 **Power BI Dashboard**
+
 <img width="700" height="300" alt="livestock_powerBI" src="https://github.com/user-attachments/assets/27287e2d-01bd-4db5-9f18-5b7e3cbcdb96" />
 
 The interpretation of the **Livestock Farming** Power BI dashboard:
@@ -279,17 +282,21 @@ The interpretation of the **Livestock Farming** Power BI dashboard:
 
 **Livestock Type Performance**
 **Revenue** 
+
 - Cattle generated the largest revenue ==> **₦277M**
 - Poultry came second with revenue sum ==> **₦135M**
 - Goat took the third position revenue sum ==> **₦108M**
 
 **Distribution (Quantity sold):**
+
 - **Poultry** had the largest proportion of total livestock by volume sold ==> **50.53% (758 count)**.
 - **Goat** had up to sold ==> **35.6% (534 count)**.
 - **Cattle** makes up **13.87% (208 count)** despite contributing the highest revenue, indicates higher per unit prices.
 
 **Seasonality & Monthly Trends**
+
 **Seasonal Revenue** 
+
 - **Dry season** it is higher when compared to rainy season with ==> **₦263M** 
 - **Rainy season** the sales is lower ==> **₦258M**
   
