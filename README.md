@@ -37,21 +37,94 @@ The dataset contains information on livestock farmers, including:
 |  Revenue	                    |  Target variable                     | 
 
 
-**Machine Learning Workflow**
-The project followed a complete machine learning pipeline:
-✔ Data Loading
-✔ Data Cleaning
-✔ Missing Value Treatment
-✔ Feature Engineering
-✔ Exploratory Data Analysis (EDA)
-✔ Data Encoding
-✔ Train-Test Split
-✔ Model Building
-✔ Model Evaluation
-✔ Feature Importance Analysis
-✔ Final Model Selection
+# Project Workflow
 
-🛠 Technologies Used
+An end-to-end machine learning pipeline which consists of 6 major phases was use to evaluate and develop the model
+
+Phase 1 – Project Setup & Data Ingestion
+
+- Project Title
+- Import libraries
+- Load dataset
+
+Phase 2 – Data Understanding & Exploration
+
+- Understand Dataset
+- Data Cleaning
+- Exploratory Data Analysis
+
+Phase 3 – Data Preprocessing & Feature Engineering
+
+- Feature Engineering
+- Encode Categorical Variables
+- Define Features & Target
+
+Phase 4 – Model Building, Evaluation & Diagnostics
+
+- Train-Test Split
+- Build Machine Learning Model
+- Model Evaluation
+- Model Diagonstics
+- Feature Importance
+- Cross-Validation
+
+Phase 5 - Model Deployment & Inference
+
+- Save the Trained Model
+- Load Saved Model
+- Predict New Data
+
+Phase 6 – Reporting & Business Insights
+
+- Conclusion
+- Summary
+- Business Interpretation and Recommendation
+
+Phase 7 – Business Interpretation
+- Model limitations
+- Business recommendations
+
+Phase 8 – Project Conclusion
+Which summarized the findings and discuss future improvements.
+
+# Machine Learning Workflow
+
+Load dataset<br>
+		↓<br>
+Understand Dataset<br>
+		↓<br>
+Data Cleaning<br>
+		↓<br>
+Exploratory Data Analysis<br>
+		↓<br>
+Feature Engineering<br>
+		↓<br>
+Encode Categorical Variables<br>
+		↓<br>
+Define Features & Target<br>
+		↓<br>
+Train-Test Split<br>
+		↓<br>
+Build Machine Learning Model<br>
+		↓<br>
+Model Evaluation<br>
+		↓<br>
+Model Diagonstics<br>
+		↓<br>
+Feature Importance<br>
+		↓<br>
+Cross-Validation<br>
+		↓<br>
+Save the Trained Model<br>
+		↓<br>
+Load Saved Model<br>
+		↓<br>
+Predict New Data<br>
+		↓<br>
+Power BI Dashboard<br>
+
+
+**Technologies**<br>
 1. Python
 2. Pandas
 3. NumPy
@@ -59,13 +132,15 @@ The project followed a complete machine learning pipeline:
 5. Scikit-learn
 6. Jupyter Notebook
 
-🤖 Models Developed
+**Models Developed**<br>
+
 The following regression models were trained:
 1. Linear Regression
 2. Decision Tree Regressor
 3. Random Forest Regressor
 
-📈 Model Performance
+**Model Performance**<br>
+
 
 |  Model	               |  MAE	     |  RMSE	 |  R²      |
 |--------------------------|-------------|-----------|----------|
@@ -73,7 +148,8 @@ The following regression models were trained:
 |  Decision Tree	       |  0.1048	 |   0.1721	 |   0.9619 |
 |  Random Forest	       |  0.0864	 |   0.1160	 |   0.9827 |
 
-🏆 Best Model
+***Best Model**<br>
+
 The Random Forest Regressor achieved the best predictive performance.
 Performance
 
@@ -85,11 +161,16 @@ Performance
 
 This indicates that the **Random Forest model** explains approximately 98.3% of the variation in farmers' revenue within the dataset.
 
-📌 Feature Importance
+**Feature Importance**<br>
+
+<img width="600" height="300" alt="important_features" src="https://github.com/user-attachments/assets/a3cbc5fc-4b77-4edf-acec-deb25c7b1096" />
+
 The Random Forest model identified the following variables as the strongest predictors of farmers' revenue:
-Rank	Feature	Importance
-1.	Livestock Type (Goat)	56.0%
-2.	Number Sold	31.3%
+
+
+Rank							Feature	Importance
+1.	Livestock Type (Goat)		56.0%
+2.	Number Sold					31.3%
 3.	Livestock Type (Poultry)	9.8%
 These three variables accounted for approximately 97% of the model's predictive capability.
 
