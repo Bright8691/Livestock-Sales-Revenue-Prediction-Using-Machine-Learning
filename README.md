@@ -168,14 +168,14 @@ This indicates that the **Random Forest model** explains approximately 98.3% of 
 The Random Forest model identified the following variables as the strongest predictors of farmers' revenue:
 
 
-Rank Feature	Importance
+**Rank Feature Importance**
 1.	Livestock Type (Goat)		56.0%
 2.	Number Sold					31.3%
 3.	Livestock Type (Poultry)	9.8%<br>
 
 These three variables accounted for approximately 97% of the model's predictive capability.
 
-💡 Key Findings
+**Key Findings**
 1.	Goat farming was the strongest predictor of revenue.
 2. The number of livestock sold had a major influence on revenue.
 3. Poultry farming also contributed significantly.
@@ -189,21 +189,21 @@ These three variables accounted for approximately 97% of the model's predictive 
 **Breakdown of the Correlation Heatmap**
 
 - +1.00 (Deep Red): ==> Perfect positive correlation (as one increases, the other increases proportionally).
-- 0.00 (Grey/Neutral): ==>  No linear relationship.
+-  0.00 (Grey/Neutral): ==>  No linear relationship.
 - -1.00 (Deep Blue): ==> Perfect negative correlation (as one increases, the other decreases proportionally).
 
-Average_Annual_Rainfall_mm vs. Vulnerability_Index_Score ==> -0.99(Deep Blue)(Strong negative correlation)
-- Which means there is extremely strong nagative relationship between both variables. When the annual rainfall is lower
+**Average_Annual_Rainfall_mm vs. Vulnerability_Index_Score** ==> -0.99(Deep Blue)(Strong negative correlation)
+- Which means there is extremely strong nagative relationship between both variables. When the annual rainfall is lower<br>
   the vulnerability index scores is high.
 
-Number_Sold vs. Total_Value_Naira ==>-0.15(Light Blue)(Weak Negative Correlation)
+**Number_Sold vs. Total_Value_Naira** ==>-0.15(Light Blue)(Weak Negative Correlation)
 - Which means slight tendecy for higer total value to mean fewer items sold.
 
-Distance_to_Market_km, Age, Number_Sold and Total_Value_Naira have no linear relationship with each other or with rainfall.
+**Distance_to_Market_km, Age, Number_Sold and Total_Value_Naira** have no linear relationship with each other or with rainfall.
 
 The differences in market distance or age is not a predictable variable in this dataset.
 
-Major variables to check, the relationship between Average_Annual_Rainfall_mm and Vulnerability_Index_Score 
+Major variables to check, the relationship between **Average_Annual_Rainfall_mm and Vulnerability_Index_Score** 
 
 **Actual vs Predicted Revenue**<br>
 
@@ -274,6 +274,7 @@ The interpretation of the **Livestock Farming** Power BI dashboard:
 6. Market Average Distance: 18.71 Km
 
 **Revenue and Sales Breakdown**
+
 **Geopolitical Zone Performance**
 - South-East is the highest revenue contributor at **₦147M**
 - North-East contributed ==> **₦145M**
@@ -281,6 +282,7 @@ The interpretation of the **Livestock Farming** Power BI dashboard:
 - South-South contributed ==> **₦86M**.
 
 **Livestock Type Performance**
+
 **Revenue** 
 
 - Cattle generated the largest revenue ==> **₦277M**
@@ -300,25 +302,28 @@ The interpretation of the **Livestock Farming** Power BI dashboard:
 - **Dry season** it is higher when compared to rainy season with ==> **₦263M** 
 - **Rainy season** the sales is lower ==> **₦258M**
   
-**Monthly Transaction Trend** Sales show a downward slope starting from **April (₦118M)** through **March (₦93M)**, **June (₦85M)**, 
-Month                       Transaction 
+**Monthly Transaction Trend**  
 
-**January (₦81M)**, **May (₦78M)**, reaching a low in **February (₦66M)**.
-## 3. Distance to Market Insights
+|	Month       |   Transaction(₦)| 
+|---------------|-----------------|
+|	January		|	81,000,000	  |						
+|	February	|	66,000,000	  | 	
+|	March		|	93,000,000	  |	
+|	April		|	118,000,000	  |
+|	May			|	93,000,000	  |
+|	June		|	85,000,000	  |		
+
+**Distance to Market Insights**
+
 The **Livestock Revenue by Distance to Market** scatter/chart shows clear operational dynamics based on proximity:
- * **Cattle:** Sold near markets (approx. **3,000–4,000 km aggregate distance scale**), capturing high revenue value.
- * **Goat:** Sold at mid-range distance (~**10,000 km aggregate distance**).
- * **Poultry:** Transported over the longest distance (~**14,000–15,000 km aggregate distance**), while yielding mid-tier revenue compared to cattle.
-## 4. Predictive Model Performance
-The dashboard includes a machine learning evaluation pane comparing three models for predictive performance (likely predicting revenue or sales):
-| Model | MAE (Mean Absolute Error) | RMSE (Root Mean Squared Error) | R^2 (R-Squared) |
-			
-| **Random Forest** | **0.09** | **0.12** | **0.9827** |
-| **Decision Tree** | 0.10 | 0.17 | 0.9619 |
-| **Linear Regression** | 0.22 | 0.32 | 0.8645 |
- * **Best Performing Model:** **Random Forest** demonstrates the highest accuracy with an R^2 of **0.9827** and the lowest error metrics (MAE: 0.09, RMSE: 0.12).
- * **Linear Regression** is the weakest predictor (R^2 = 0.8645).
-## Summary of Business Takeaways
+- **Cattle:** Sold near markets (approx. **3,000–4,000 km aggregate distance scale**), capturing high revenue value.
+- **Goat:** Sold at mid-range distance (~**10,000 km aggregate distance**).
+- **Poultry:** Transported over the longest distance (~**14,000–15,000 km aggregate distance**), while yielding mid-tier revenue<br> compared to cattle.
+- 
+**Predictive Model Performance** has been discussed above.
+
+**Business Summary**
+
  1. **Value vs. Volume:** Cattle drives revenue growth due to high individual unit value despite lower volume, while Poultry drives operational volume.
  2. **Regional Focus:** South-East, North-East, and North-West are high-performing regions; South-South underperforms and may require strategy intervention or market development.
  3. **Logistics:** Long travel distances for Poultry compared to Cattle point toward potential supply chain optimization opportunities.
