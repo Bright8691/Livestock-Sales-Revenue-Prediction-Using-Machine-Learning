@@ -319,7 +319,7 @@ The **Livestock Revenue by Distance to Market** scatter/chart shows clear operat
 - **Cattle:** Sold near markets (approx. **3,000–4,000 km aggregate distance scale**), capturing high revenue value.
 - **Goat:** Sold at mid-range distance (~**10,000 km aggregate distance**).
 - **Poultry:** Transported over the longest distance (~**14,000–15,000 km aggregate distance**), while yielding mid-tier revenue<br> compared to cattle.
-- 
+ 
 **Predictive Model Performance** has been discussed above.
 
 **Business Summary**
