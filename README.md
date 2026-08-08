@@ -2,7 +2,7 @@
 The Project is aimed at developing a  machine learning model with Python in livestock sales prediction using old business transaction record to develop and deploy the best predictive model which can be used to improve livestock revenue 
 
 # Project Overview
-The Project is aimed at developing a machine learning model with Python in livestock sales prediction using old business transaction records. The following factors that influenced livestock business where explored during the machine learning model. They include the following: data inspection and preprocessing, cleaning, exploratory data analysis, predictive modelling and feature engineering to build and evaluate accurate revenue prediction models. Three regression algorithms were trained and compared to identify the best-performing model.
+The Project is aimed at developing a machine learning model with Python in livestock sales prediction using old business transaction records. The following factors that influenced livestock business were explored during the machine learning model. They include the following: **data inspection and preprocessing, cleaning, exploratory data analysis, predictive modelling and feature engineering to build and evaluate accurate revenue prediction models**. Three regression algorithms were trained and compared to identify the best-performing model.
 The dataset source is from United Nation volunteer website. 
 
 # Business Problem
